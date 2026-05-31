@@ -11,16 +11,19 @@ Tired of filling that QEC form manually and clicking through every field? AUTOQE
 ## How to install
 
 1. Download this repo via **Code > Download ZIP** and extract it.
-   ![alt text](image.png)
+<img width="1918" height="748" alt="image" src="https://github.com/user-attachments/assets/21b8f29b-a200-4e4b-9171-13eb9470cae9" />
+
 2. Open Chrome.
 3. Go to the three dots menu → **Extensions** → **Manage extensions**.
-   ![alt text](image-1.png)
+<img width="832" height="1024" alt="image" src="https://github.com/user-attachments/assets/128ce886-da3f-4a7a-a97d-0759460aa49e" />
+
 4. Enable the **Developer mode** toggle (top right).
 5. Click **Load unpacked** and select the extracted folder.
-   ![alt text](image-2.png)
-6. Confirm the extension shows up in the list.
-7. Pin it from the extensions button (puzzle piece) → **Pin**.
-   ![alt text](image-3.png)
+<img width="1925" height="183" alt="image" src="https://github.com/user-attachments/assets/1263c92d-f311-46e4-979d-1ba4c1382441" />
+
+7. Confirm the extension shows up in the list.
+8. Pin it from the extensions button (puzzle piece) → **Pin**.
+<img width="517" height="387" alt="image" src="https://github.com/user-attachments/assets/7e760625-d4cb-4f75-ac93-0caa3848f207" />
 
 ## How to use
 
