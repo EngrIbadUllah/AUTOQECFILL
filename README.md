@@ -1,4 +1,4 @@
-# AUTOQECFILL — 1-Click QEC Form Filler
+# AUTOQECFILL 1-Click QEC Form Filler
 
 Tired of filling that QEC form manually and clicking through every field? AUTOQECFILL is a Chrome extension that fills all Air University QEC forms for you in one click.
 
@@ -39,4 +39,4 @@ Tired of filling that QEC form manually and clicking through every field? AUTOQE
 
 Make sure you are logged into the portal before starting automation.
 
-DEVELOPED BY href<"https://github.com/ENgrIbadUllah>
+DEVELOPED BY AIR UNIVERSITY
