@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "AUTOQECFILL",
+  "version": "2.1",
+  "description": "Automates course, teacher, and online learning evaluation forms with native alert suppression.",
+  "icons": {
+    "16": "assets/favicon.png",
+    "48": "assets/favicon.png",
+    "128": "assets/favicon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "tabs"
+  ],
+  "host_permissions": ["https://portals.au.edu.pk/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["report.html", "report.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://portals.au.edu.pk/*"],
+      "js": ["inject.js"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true
+    },
+    {
+      "matches": ["https://portals.au.edu.pk/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "ISOLATED",
+      "all_frames": true
+    }
+  ]
+}
